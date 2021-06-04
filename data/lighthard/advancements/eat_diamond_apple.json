@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "diamond_apple": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{diamond_apple: 1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lighthard:cure_death"
+    }
+}
