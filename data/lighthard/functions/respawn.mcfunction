@@ -1,8 +1,8 @@
 #Reset Death Counters
-scoreboard players set @s deathInit 0
+scoreboard players set @s lh_deathInit 0
 
 #Death has not been cured
-scoreboard players set @s uncuredDeath 1
+scoreboard players set @s lh_uncuredDeath 1
 
 #Give bad effects
 effect give @s minecraft:slowness 1000000 1 true
